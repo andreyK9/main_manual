@@ -1,0 +1,18 @@
+Численное
+	undefined == NaN
+	null == 0
+	true == 1
+	false == 0
+	string == либо числу в ней либо NaN
+
+	null == undefined
+
+	при сравнении > < >= <=
+	null преобразовывается, а при == нет
+
+Логическое
+	indefined == false
+	nul == false
+	числа == true, если не 0, NaN
+	строки == true, если не пустая
+	обьекты == true
